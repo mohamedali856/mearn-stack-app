@@ -3,7 +3,6 @@ import dotenv from "dotenv";
 import path from "path";
 import { connectDB } from "./config/db.js";
 import productRoutes from "./routes/product.route.js"; // Ensure this path matches your file structure
-
 dotenv.config();
 
 const app = express();
